@@ -148,8 +148,9 @@ with tab2:
                         
                         # Show model info
                         st.subheader("Model Information")
-                        st.write(f"Model saved at: {result['model_path']}")
-                        st.write(f"Experiment logged at: {result['experiment_path']}")
+                        if 'model_path' in result:
+                            st.write(f"Model saved at: {result['model_path']}")
+                        
                     else:
                         st.error("Training failed")
                 except Exception as e:
