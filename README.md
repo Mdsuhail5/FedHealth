@@ -86,10 +86,7 @@ diastolic_bp  : float (60-100 mmHg)
 spo2          : float (90-100%)
 healthy       : int (0 or 1)
 
-Generate sample data:
-
-bash
-python backend/tests/generate_sample.py
+![ezgif com-animated-gif-maker](https://github.com/user-attachments/assets/0674197f-8340-4dde-b76a-1246f52d3d2f)
 
 ## 🧠 Model Architecture
 
